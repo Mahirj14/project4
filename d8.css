@@ -1,0 +1,64 @@
+h1{
+     font color: white;
+	font-family: serif;
+	background-color: black;
+	padding: 40px;
+	border-bottom: 3px solid black;
+}
+
+
+
+body{
+	background-color: black;
+}
+main:after{
+	content: " ";
+	display: table;
+	clear: both;
+
+
+}
+
+.Block{
+
+	width: 50%;
+	float: left;
+}
+
+.block1{
+	width: 50%;
+	height: 50%;
+	border-radius: 10px;
+
+}
+
+.block2{
+	height: 50%;
+	width: 50%;
+}
+
+.image{
+	margin: 2px;
+	padding: 2px;
+
+	border-radius: 8px;
+	box-shadow: yellow 1px 1px 2px;
+
+}
+
+.image:hover{
+	transform: scale(2,1.5);
+	transition: .2s transform;
+}
+
+p{
+	font-family: Vidaloka;
+	font-size: 35px;
+	margin: 0;
+	padding: 20px;
+	word-spacing: 2px;
+	border: dotted;
+	border-radius: 15px;
+    background-color: yellow;
+
+}
